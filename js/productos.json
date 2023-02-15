@@ -1,0 +1,122 @@
+ [
+    {
+        "id": "zapatilla-deport",
+        "titulo": "Calzado Deportivo",
+        "imagen": "./img/deport/01.jpg",
+        "categoria":  {
+            "id": "deport",
+            "nombre": "Deport"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "zapatilla-deport02",
+        "titulo": "Calzado Deportivo 02",
+        "imagen": "./img/deport/02.jpg",
+        "categoria":  {
+            "id": "deport",
+            "nombre": "Deport"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "zapatilla-deport03",
+        "titulo": "Calzado Deportivo 03",
+        "imagen": "./img/deport/03.jpg",
+        "categoria":  {
+            "id": "deport",
+            "nombre": "Deport"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "zapatilla-street",
+        "titulo": "Calzado Street",
+        "imagen": "./img/street/01.jpg",
+        "categoria":  {
+            "id": "street",
+            "nombre": "Street"
+        },
+        "precio": 1300
+    },
+    {
+        "id": "zapatilla-street02",
+        "titulo": "Calzado Street 02",
+        "imagen": "./img/street/02.jpg",
+        "categoria":  {
+            "id": "street",
+            "nombre": "Street"
+        },
+        "precio": 1300
+    },
+    {
+        "id": "zapatilla-street03",
+        "titulo": "Calzado Street 03",
+        "imagen": "./img/street/03.jpg",
+        "categoria":  {
+            "id": "street",
+            "nombre": "Street"
+        },
+        "precio": 1300
+    },
+    {
+        "id": "zapatilla-casual",
+        "titulo": "Calzado Casual",
+        "imagen": "./img/casual/01.jpg",
+        "categoria":  {
+            "id": "casual",
+            "nombre": "Casual"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "zapatilla-casual02",
+        "titulo": "Calzado Casual 02",
+        "imagen": "./img/casual/02.jpg",
+        "categoria":  {
+            "id": "casual",
+            "nombre": "Casual"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "zapatilla-casual03",
+        "titulo": "Calzado Casual 03",
+        "imagen": "./img/casual/03.jpg",
+        "categoria":  {
+            "id": "casual",
+            "nombre": "Casual"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "zapatilla-formal",
+        "titulo": "Calzado Formal",
+        "imagen": "./img/formal/01.jpg",
+        "categoria":  {
+            "id": "formal",
+            "nombre": "Formal"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "zapatilla-formal02",
+        "titulo": "Calzado Formal 02",
+        "imagen": "./img/formal/02.jpg",
+        "categoria":  {
+            "id": "formal",
+            "nombre": "Formal"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "zapatilla-formal03",
+        "titulo": "Calzado Formal 03",
+        "imagen": "./img/formal/03.jpg",
+        "categoria":  {
+            "id": "formal",
+            "nombre": "Formal"
+        },
+        "precio": 1700
+    }
+]

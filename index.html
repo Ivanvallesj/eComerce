@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/icon.svg">
+    <title>e-Commerce Calzados</title>
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Barra lateral -->
+        <header class="header-mobile">
+            <h1 class="logo">eCommerces</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo"> e-Commerces </h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="btn-menu btn-categoria active"><i class="bi bi-caret-right-square-fill"></i> Ver todo</button>
+                    </li>
+                    <li>
+                        <button id="casual" class="btn-menu btn-categoria"><i class="bi bi-caret-right-square"></i> Casuales</button>
+                    </li>
+                    <li>
+                        <button id="formal" class="btn-menu btn-categoria"><i class="bi bi-caret-right-square"></i> Fromales</button>
+                    </li>
+                    <li>
+                        <button id="deport" class="btn-menu btn-categoria"><i class="bi bi-caret-right-square"></i> Deportivas</button>
+                    </li>
+                    <li>
+                        <button id="street" class="btn-menu btn-categoria"><i class="bi bi-caret-right-square"></i> Streets</button>
+                    </li>
+                    <li>
+                        <a class="btn-menu btn-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-check"></i> Carrito<span id="contador" class="contador">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="text-footer">
+                    © Derechos Resevados
+                </p>
+            </footer>
+        </aside>
+
+        <!-- Pagina principal -->
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal" >Todos los productos</h2>
+                <!-- Aca cargo los elementos en main.js -->
+            <div class="contenedor-productos" id="contenedorProduct">
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
